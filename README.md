@@ -77,7 +77,7 @@ Modify guest's MAC address to whatever except below:
 	};
 ```
 
-![mac](https://github.com/hzqst/VmwareHardenedLoader/raw/master/img/4.png)
+![mac]([https://github.com/hzqst/VmwareHardenedLoader/raw/master/img/4.png](https://github.com/ZeOs360/VmwareHardenedLoader/blob/master/img/4.png))
 
 You could add
 

@@ -77,7 +77,7 @@ Modify guest's MAC address to whatever except below:
 	};
 ```
 
-![mac]([https://github.com/hzqst/VmwareHardenedLoader/raw/master/img/4.png](https://github.com/ZeOs360/VmwareHardenedLoader/blob/master/img/4.png))
+![mac](/img/4.png)
 
 You could add
 
@@ -116,3 +116,11 @@ https://github.com/aquynh/capstone is used to disasm ntoskrnl code.
 ## TODO
 
 VMware virtual graphic card information could be detected by querying DXGI interface, which could be modified by editing graphic driver files.
+You can use whatever you want. I used “BMware SVGA 3D” to change the virtual graphics card information.
+```bash
+@echo off
+ 
+REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000" /v "DriverDesc" /t REG_SZ /d "ZeOs SVGA 3D" /f
+ 
+pause
+```

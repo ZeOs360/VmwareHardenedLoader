@@ -117,7 +117,7 @@ https://github.com/aquynh/capstone is used to disasm ntoskrnl code.
 
 VMware virtual graphic card information could be detected by querying DXGI interface, which could be modified by editing graphic driver files.
 
-You can use whatever you want. I used “BMware SVGA 3D” to change the virtual graphics card information.
+You can use whatever you want. I used “ZeOs SVGA 3D” to change the virtual graphics card information.
 ```bash
 @echo off
  
